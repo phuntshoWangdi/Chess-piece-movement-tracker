@@ -1,3 +1,4 @@
+#location of chess piece images
 img_path="D:/Users/Phuntsho Wangdi/Desktop/D/py_game_dev/chess/chess_pieces/"
 chessboard_path="D:/Users/Phuntsho Wangdi/Desktop/D/py_game_dev/chess/chessboard/"
 
