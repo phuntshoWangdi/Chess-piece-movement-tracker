@@ -1,6 +1,8 @@
+import os
 #location of chess piece images
-img_path="D:/Users/Phuntsho Wangdi/Desktop/D/py_game_dev/chess/chess_pieces/"
-chessboard_path="D:/Users/Phuntsho Wangdi/Desktop/D/py_game_dev/chess/chessboard/"
+dirPath = os.getcwd()
+img_path = os.path.join(dirPath,'chess_pieces\\')
+chessboard_path = os.path.join(dirPath,'chessboard\\'
 
 #chess board
 def cb():
