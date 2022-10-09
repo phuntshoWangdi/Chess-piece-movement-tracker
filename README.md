@@ -10,7 +10,7 @@ The deep learning model identifies if the space is empty or not.
 # Flow Chart
 ![](https://github.com/phuntshoWangdi/Chess-piece-movement-tracker/blob/master/doc/c1.PNG?raw=true)
 
-* The first step is to take picture of chessboard. After that crop out only the chessboard. To do that I get four corners of chessboard and base on that corner I crop out the chessboard and perform perspective transformation so that any tilt in the image is corrected.
+* The first step is to take picture of chessboard. After that, crop out only the chessboard. To do that I get four corners of chessboard and base on that corner I crop out the chessboard and perform perspective transformation so that any tilt in the image is corrected.
 ![](https://github.com/phuntshoWangdi/Chess-piece-movement-tracker/blob/master/doc/before_and_after_transformation.PNG?raw=true)
 
 *After the transformation, it is divided into 64 images of size 75x75 and saved into a folder named ‘img’.
